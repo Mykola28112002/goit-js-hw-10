@@ -57,7 +57,7 @@ function createText(data) {
 function textList(data) {
   return data
     .map(({ flags, name }) => {
-      return `<li class = "box">
+      return `<li class = "container">
       <img
         src="${flags.svg}"
         alt="country flag"
@@ -72,7 +72,7 @@ function textList(data) {
 function textInfo(data) {
   return data
     .map(({ flags, name, languages, capital, population }) => {
-      return `<div class = "box">
+      return `<div class = "container">
       <img
         src="${flags.svg}"
         alt="country flag"
