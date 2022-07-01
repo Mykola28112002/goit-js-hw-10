@@ -63,7 +63,7 @@ function textList(data) {
         alt="country flag"
         width="20";
       />
-      <p class = "country">${name}</p>
+      <p class = "country__name">${name}</p>
     </li>`;
     })
     .join('');
@@ -80,9 +80,9 @@ function textInfo(data) {
       />
       <p class = "country">${name}</p>
     </div>
-    <p class="text_bold">Capital: <span>${capital}</span></p>
-    <p class="text_bold">Population: <span>${population}</span></p>
-    <p class="text_bold">Languages: <span>${languages
+    <p class="text">Capital: <span>${capital}</span></p>
+    <p class="text">Population: <span>${population}</span></p>
+    <p class="text">Languages: <span>${languages
       .map(language => language.name)
       .join(', ')}</span></p>
     `;

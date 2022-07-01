@@ -30,12 +30,12 @@ img {
   display: flex;
   align-items: center;
 }
-.country {
+.country__name {
   margin-left: 10px;
   font-size: 20px;
 }
 
-.text_bold {
+.text {
   font-weight: bold;
 }
 span {
