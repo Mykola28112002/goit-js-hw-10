@@ -28,10 +28,10 @@ img {
 
 .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .country__name {
-  margin-left: 10px;
+  padding: 0 0 0 10px;
   font-size: 20px;
 }
 
@@ -40,4 +40,9 @@ img {
 }
 span {
   font-weight: 400;
+}
+.country{
+  margin: 0 0 0 10px;
+  font-size: 40px;
+  font-weight: 600;
 }
